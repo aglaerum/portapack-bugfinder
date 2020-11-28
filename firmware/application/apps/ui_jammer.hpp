@@ -57,7 +57,7 @@ private:
 		.foreground = Color::grey(),
 	};
 	
-	/*static constexpr jammer_range_t range_presets[] = {
+	static constexpr jammer_range_t range_presets[] = {
 		// GSM900 Orange
 		{ true, 935000000, 945000000 },		// BW:10M
 		// GSM1800 Orange
@@ -122,7 +122,7 @@ private:
 		{ true, 2467000000 - 11000000, 2467000000 + 11000000},	// BW: 22MHz
 		// WLAN 2.4G CH13
 		{ true, 2472000000 - 11000000, 2472000000 + 11000000},	// BW: 22MHz
-	};*/
+	};
 	
 	Labels labels {
 		{ { 2 * 8, 9 * 8 + 4 }, "Start", Color::light_grey() },
